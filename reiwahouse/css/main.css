@@ -1,0 +1,186 @@
+html{
+    margin: auto;
+}
+.container-custom{
+    margin-left: 10%;
+    margin-right: 10%;
+    display:grid;
+}
+a{
+    color: #1a75bc;
+    
+}
+a:hover{
+    text-decoration: none;
+}
+/* Top CSS */
+.navbar-brand{
+    font-size: small;
+}
+.top-border{
+    border-bottom: solid 1px solid;
+}
+.top-mg-right{
+    margin-right: 10px;
+}
+.top-search{
+    border: 0px;
+}
+.top-btn-search{
+    border: 0px;
+    background-color: white;
+}
+.top-search-all{
+    margin-right: 10px;
+}
+/* Nav CSS */
+.nav-text-style{
+    font-weight: bold;
+    font-size: small;
+    text-transform: uppercase;
+}
+.nav-padding{
+    padding-right: 10px;
+}
+/* Content */
+
+/* Info CSS */
+.text-ali{
+    font-size: smaller;
+    margin: auto;
+}
+.info-mg{
+    margin-top: 100px;
+}
+.info-pos{
+    bottom: 0px;
+}
+.pos-pd{
+    padding-right: 0px;
+}
+
+.right-product{
+    background-image: url(../images/shutterstock_253255078.jpg);
+    width: 100%;
+}
+.tall {
+    height:150px;
+}
+
+.product-mg{
+    margin-top: 50px;
+}
+.product-mg-bottom{
+    margin-left: 20px;
+}
+.product-text{
+    background-color: black; 
+    opacity: 0.6; 
+    padding: 10px;
+    padding-left: 35px;
+    position: absolute; 
+    bottom: 0px; 
+    right: 15px;
+    color: white;
+}
+.product-2-mg{
+    margin-right: 50px;
+}
+.product-text:hover{
+    text-decoration: none;
+    color: #1a75bc;
+}
+/* Product2 */
+.size-product-2{
+    height: 450px;
+}
+.btn-more-product2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+
+.bg-user{
+    background-image:linear-gradient(to right,#1a75bc 0%,#1a75bc 100%),url(../images/mk1.jpg);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+}
+.user-pd{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.text-style-2{
+    color: white;
+}
+.btn-user-pd{
+    padding-right: 0px;
+}
+.news{
+    padding-top: 15px;
+}
+.btn-trapanes{
+    background-color: transparent;
+    color: white;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+    font-family: rbicon;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    font-family: rbicon;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+    font-family: rbicon;
+  }
+
+  .top-mg{
+      margin-top: 15px;
+  }
+  .bottom-mg{
+      margin-bottom: 15px;
+  }
+
+
+  /* Đối tác */
+  .bg-dt{
+    background-image:linear-gradient(to right,#1a75bc 0%,#1a75bc 100%),url(../images/mk1.jpg);
+    background-blend-mode: multiply;
+    width: 100%;
+  }
+  .mg-doitac{
+      margin-top: 15px;
+      width: 100%;
+  }
+  .mg-doitac-1{
+      margin-top: 50px;
+  }
+  .mg-doitac-2{
+    margin-bottom: 50px;
+}
+.bg-dt-1{
+    background-image:linear-gradient(to right,#ee9b11 0%,#ee9b11 100%),url(../images/mk1.jpg);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  /* Content */
+  .content-1-mg{
+      margin-top: 50px;
+  }
+
+  /* Bottom */
+  .bg-bottom{
+    background-image:linear-gradient(to right,#1a75bc 0%,#1a75bc 100%),url(../images/mk1.jpg);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+  }
